@@ -1,0 +1,89 @@
+@font-face {
+    font-family: fuente;
+    src: url(./waltograph42.ttf);
+}
+
+#videito {
+    position: absolute;
+    width: 100vw;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#entrada, #button {
+    margin-top: 45vw;
+    z-index: 1;
+    border-radius: 1vw;
+    border: none;
+}
+
+#fondo2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    top: 50vw;
+}
+
+#output {
+    position: absolute;
+    top: 70vw;
+}
+
+#welcome {
+    position: absolute;
+    font-family: fuente;
+    font-size: 5vw;
+    color: white;
+}
+
+#imagen {
+    position: absolute;
+    top: -5vw;
+    left: 25vw;
+    scale: 2;
+    mask-image: linear-gradient(
+        black 80%, 
+        transparent
+    );
+    border-radius: 1vw;
+}
+
+#nombre {
+    position: absolute;
+    top: 10vw;
+    left: 25.5vw;
+    color: white;
+    font-size: 5vw;
+    font-family: fuente;
+}
+
+#movie {
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    width: 60vw;
+    left: -40vw;
+    top: -10vw;
+}
+
+#fecha {
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    width: 50vw;
+    left: -40vw;
+    top: -5vw;
+}
+
+#game {
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+    width: 50vw;
+    left: -40vw;
+    top: 0vw;
+}
