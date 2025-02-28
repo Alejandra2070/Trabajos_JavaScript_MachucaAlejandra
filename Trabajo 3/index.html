@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="nombreJuego">Juego de las 21</p>
+    <div id="imgs"></div>
+    <div id="mensaje"></div>
+    <button id="buttonNew" onclick="nuevaCarta()" disabled>Sacar Carta</button>
+    <button id="buttonReset" onclick="reintentarJuego()" style="display: none;">Volver a jugar</button>
+    <button id="botonReglas" onclick="mostrarReglas()">Ver las reglas del juego</button>
+    <div id="reglas">
+        <h2>Reglas del Juego</h2>
+        <p>El objetivo del juego es alcanzar un total de 21 puntos sin pasarse.</p>
+        <p>Las cartas numéricas de 2 a 10 tienen su mismo valor.</p>
+        <p>Las cartas de figuras (J, Q, K) valen 10 puntos.</p>
+        <p>El As (A) puede valer 1 u 11 puntos, según te convenga.</p>
+        <p>Si el total de puntos es exactamente 21, ganas.</p>
+        <p>Si el total de puntos supera 21, pierdes.</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
